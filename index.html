@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <title>Fetch API</title>
+</head>
+
+<body>
+<div class="container">
+  <h1 class="display-4 mb-4">Fetch API</h1>
+  <div class="d-grid gap-3 d-md-block">
+      <button class="btn btn-primary " id="getText">Get Text</button>
+      <button class="btn btn-success "  id="getUsers">Get Users Data</button>
+      <button class="btn btn-warning "  id="getPosts">Get Posts Data</button>
+  </div >
+  <p id="text" class="mb-10"></p>
+
+
+  <div id="output"></div>
+  <div class="card card-body mb-3 other">
+    <input type="text" placeholder="ADD POST">
+  </div>
+  
+    <hr>
+  <form  id="addPost">
+    <div class="form-group">
+      <input type="text" id="title" placeholder="title"class="form-control" >
+    </div>
+    <div class="form-group">
+      <textarea type="text" id="body" placeholder="body"class="form-control" ></textarea>
+    </div>
+    <button type="submit" id="submit" class='btn btn-secondary '>Submit</button>
+  </form>
+  
+
+  <script src="./app.js"></script>
+</div>
+</body>
+</html>
