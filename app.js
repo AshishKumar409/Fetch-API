@@ -57,6 +57,7 @@ function getPosts(){
       `
     });
     document.getElementById('output').innerHTML = output 
+    document.getElementById('addPost').style.visibility = 'visible'
      document.querySelector('.other').style.visibility = 'visible'
   })
 }
